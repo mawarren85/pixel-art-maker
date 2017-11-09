@@ -1,0 +1,114 @@
+body {
+  background-color: #4c4c4c;
+}
+h1 {
+  color: powderblue;
+  margin-left: 175px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.container-fluid {
+width: 1162px;
+margin: 40px auto 20px auto;
+
+}
+.grid-border {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  border-right: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+}
+.grid-container {
+  width: 65%;
+  float: left;
+  margin: 0 auto;
+}
+.grid-square {
+  height: 15px;
+  width: 15px;
+  border-left: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  float: left;
+  background-color: #fff;
+}
+.swatch-container {
+  height: auto;
+  float:left;
+  margin: 0 auto 40px auto;
+}
+.controls {
+  height: 100px;
+  margin-left: 1px;
+}
+.swatch-container,
+.controls {
+  width: 100%;
+
+}
+.grid-container,
+.swatch-container,
+.controls {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 0 30px #000;
+  border: 2px solid #333
+}
+.outerswatch {
+  width: 30%;
+  float: left;
+  margin: 0 auto;
+}
+
+a > div {
+  width: 25px;
+  height: 25px;
+  float: left;
+  border-radius: 60px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  border: 1px groove gainsboro;
+  box-shadow: 1px 1px 1px #000;
+}
+a:hover > div {
+  border: 2px groove #333;
+  box-shadow: 1px 1px 1px #000;
+}
+.selected > div {
+  border: 2px groove #333;
+  box-shadow: 1px 1px 1px #000;
+}
+.selected-paint {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  border: 2px groove gainsboro;
+  box-shadow: 2px 1px 2px #000;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+
+.divider {
+  border-left: 1px solid gainsboro;
+  height: 100%;
+  padding-left: 20px;
+}
+img {
+  margin-left: 25px;
+}
+
+.divider > img {
+  position: relative;
+  top: -3px;
+}
+img:hover {
+  position: relative;
+  top: 2px;
+
+}
+.trash {
+  position: relative;
+  top: 3px;
+}
